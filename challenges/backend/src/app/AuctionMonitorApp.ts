@@ -14,8 +14,8 @@ export class AuctionMonitorApp {
 
     public async start(): Promise<void> {
         this.logger.log(`Auction Monitor started.`);
-        this.carClient.getRunningAuctions();
-        // TODO: Retrieve auctions and display aggregated information (see README.md)
+        const auctions = await this.carClient.getRunningAuctions();
+        auctions.forEach(element => this.logger.log(JSON.stringify(element)))
     }
 
 }
