@@ -1,5 +1,20 @@
 # Backend Challenge
 
+## Run application
+
+```
+npm start
+```
+Note: remember to install the dependencies using the following command
+```
+npm i  <run this command at the package.json foler level>
+```
+
+## Run tests
+```
+npm test
+```
+
 Welcome to the CarOnSale backend coding challenge.
 
 In the `/src/app` directory, you find a typescript interface `ICarOnSaleClient` for a service that describes a service to retrieve a list of running auctions from the CarOnSale development API.
