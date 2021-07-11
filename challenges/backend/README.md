@@ -5,7 +5,7 @@
 ```
 npm start
 ```
-Note: remember to install the dependencies using the following command: <run this command at the package.json folder level>****
+Note: remember to install the dependencies using the following command: (run this command at the package.json folder level)
 ```
 npm i
 ```
